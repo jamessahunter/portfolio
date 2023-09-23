@@ -6,17 +6,31 @@ body{
     flex-direction: column;
 }
 header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: center;
+    background-color: aqua;
+    border-width: 1px;
+    border-color: black;
     padding: 10px;
+    margin-top: 10px;
+}
+.intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.intro img{
+    width: 200px;
 }
 h1{
     font-size: 200%;
 }
+nav{    
+    display: flex;
+}
 nav ul{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-evenly;
     min-width: 300px;
 }
 nav ul a{
