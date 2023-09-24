@@ -56,8 +56,31 @@ h2{
     padding: 10px;
 }
 
+.projects{
+    display: flex;
+    margin: 50px;
+    /* background-color: blue; */
+}
+
 .main-project img{
     width: 100vw;
+}
+.project-cards{
+    background-color: darkgray;
+    margin: 20px;
+    display:flex ;
+    flex-direction: row;
+    flex: 1 0 100%;
+
+
+}
+.other-projects{
+    margin: 100px;
+    background-color: black;
+    flex: 1 0 33.333%;
+    display:flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .contact{
@@ -84,3 +107,12 @@ h2{
 .contact a{
     text-decoration: none;
 }
+
+@media screen and (min-width: 768px) {
+    /* on tablets, set columns to only be 50% of the width and not grow */
+    .project-cards{
+      flex: 0 0 33.33333%;
+      flex-direction: row;
+      max-width: 33.333333%;
+    } 
+  }
