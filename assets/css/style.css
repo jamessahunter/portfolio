@@ -25,10 +25,10 @@ h1{
     width: 200px;
 }
 
-nav{    
+.intro nav{    
     display: flex;
 }
-nav ul{
+.intro nav ul{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -64,11 +64,22 @@ h2{
     display: flex;
     flex-direction: row;
 }
-.contact p{
+.contact nav{
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+    list-style-type: none;
+}
+.contact nav ul{
     display: flex;
     flex: 2;
-    justify-content: space-evenly;
+    /* justify-content: space-around; */
     align-items: center;
+}
+.contact nav ul li{
+    display: flex;
+    justify-content: center;
+    min-width: 300px ;
 }
 .contact a{
     text-decoration: none;
