@@ -12,7 +12,7 @@ This project was made for me to show the work I've done as a Full Stack Develope
 
  An example of how the website should perform is in the gif below.
 
- [Usage Example](./assets/James%20Hunter%20Portfolio.gif)
+ ![Usage Example](./assets/James%20Hunter%20Portfolio.gif)
 
 ## Learning Points
 

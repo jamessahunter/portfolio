@@ -1,8 +1,8 @@
 /* sets variable for repeating colors */
 :root{
-    --color-3: #1B262C;
-    --color-2: #0F4C75;
     --color-1: #3282B8;
+    --color-2: #0F4C75;
+    --color-3: #1B262C;
     --color-4: #BBE1FA;
 }
 /* sets body for flex box and fonts */
